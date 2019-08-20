@@ -1,0 +1,30 @@
+{
+  "name": "google-apps-script-ts-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lintfix": "./node_modules/tslint/bin/tslint --fix './src/*.ts'",
+    "deploy": "npm run lintfix && clasp push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnrsm/google-apps-script-ts-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnrsm/google-apps-script-ts-starter/issues"
+  },
+  "homepage": "https://github.com/dnrsm/google-apps-script-ts-starter#readme",
+  "devDependencies": {
+    "@google/clasp": "^2.2.1",
+    "@types/google-apps-script": "0.0.56",
+    "prettier": "^1.18.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1"
+  },
+  "dependencies": {}
+}
